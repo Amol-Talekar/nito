@@ -1,0 +1,1 @@
+export const TIME_IN_MILLISECOND = 60000;

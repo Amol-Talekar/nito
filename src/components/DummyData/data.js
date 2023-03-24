@@ -1,0 +1,42 @@
+export const questions = [
+  {
+    id: 1,
+    title: "What is the capital of India",
+    options: ["Mumbai", "Delhi", "Chennai", "Hyderabad"],
+    correctAnswer: "Delhi",
+    answeredCorrectly: false,
+    timeRequired: 0,
+  },
+  {
+    id: 2,
+    title: "What is the national lanugage of India",
+    options: ["Hindi", "Tamil", "Telugu", "Marathi"],
+    correctAnswer: "Hindi",
+    answeredCorrectly: false,
+    timeRequired: 0,
+  },
+  {
+    id: 3,
+    title: "What is the national animal of India",
+    options: ["Lion", "Cheetah", "Elephant", "Tiger"],
+    correctAnswer: "Tiger",
+    answeredCorrectly: false,
+    timeRequired: 0,
+  },
+  {
+    id: 4,
+    title: "What is the national fruit of India",
+    options: ["Banana", "Mango", "Apple", "Grapes"],
+    correctAnswer: "Mango",
+    answeredCorrectly: false,
+    timeRequired: 0,
+  },
+  {
+    id: 5,
+    title: "What is the national river of India",
+    options: ["Yamuna", "Narmada", "Ganga", "Indus"],
+    correctAnswer: "Ganga",
+    answeredCorrectly: false,
+    timeRequired: 0,
+  },
+];
