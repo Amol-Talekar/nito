@@ -33,12 +33,13 @@ const Result = () => {
       id: "my-chart",
       type: "pie",
     },
-    labels: ["Correct Answers", "Total Questions"],
+    labels: ["Correct Answers", "Incorrect Answers"],
   };
 
+  const inCorrectQuestions = questions.length - score;
   const chartData: ChartData = {
     name: "Questions",
-    data: [score, questions.length],
+    data: [score, inCorrectQuestions],
   };
 
   return (
