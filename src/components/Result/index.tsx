@@ -59,7 +59,7 @@ const Result = () => {
           </Styles.BannerBox>
 
           <Styles.WrongAttemptsBox>
-            <h2> Full Result </h2>
+            <h2> Full Result : Wrong Answers</h2>
             {wrongAttempts?.length > 0 ? (
               <div>
                 {wrongAttempts.map((item, index) => (
