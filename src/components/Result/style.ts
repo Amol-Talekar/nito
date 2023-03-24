@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ResultContainer = styled.div`
-  width: 100vw;
+  width: 99vw;
 
   box-sizing: border-box;
   display: flex;
@@ -58,7 +58,7 @@ export const WrongAttemptsBox = styled.div`
     padding-right: 24px;
   }
   @media screen and (min-width: 840px) {
-    width: 60vw;
+    width: 65vw;
   }
 `;
 
