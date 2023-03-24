@@ -40,6 +40,17 @@ export const BannerBox = styled.div`
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (min-width: 960px) {
+    width: 30vw;
+  }
+
+  @media screen and (max-width: 840px) {
+    width: 65vw;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 90vw;
+  }
 `;
 
 export const WrongAttemptsBox = styled.div`
